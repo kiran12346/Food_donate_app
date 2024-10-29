@@ -1,0 +1,42 @@
+/* CSS for RequestListing Component */
+.table-responsive {
+    margin: 20px 0;
+}
+
+.table {
+    background-color: #f8f9fa; /* Light grey background for the table */
+    color: #333; /* Darker text color for contrast */
+}
+
+.table th, .table td {
+    border-color: #dee2e6; /* Light grey border color */
+    text-align: center;
+}
+
+.table thead th {
+    background-color: #6c757d; /* Dark grey background for the table header */
+    color: #fff; /* White text color for the table header */
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #e9ecef; /* Slightly darker grey for odd rows */
+}
+
+.table tbody tr:hover {
+    background-color: #ced4da; /* Highlight row on hover */
+}
+
+.btn-link {
+    color: #007bff; /* Blue color for the location button */
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.btn-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: none;
+}
+
+.text-info {
+    color: #17a2b8; /* Bootstrap info color for status messages */
+}
